@@ -62,6 +62,7 @@ body {
 }
 
 p {
+  padding: 1em;
   color: var(--color-texts);
 }
 
@@ -329,6 +330,8 @@ div#loading img {
 }
 
 .site-header--menu-center .container {
+  padding: 1em;
+  margin: 0;
   position: relative;
 }
 
@@ -2062,7 +2065,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (min-width: 992px) {
   .hero-area-l-17 .content {
-    padding-top: 0;
+    padding-top: 1;
     padding-bottom: 90px;
   }
 }
@@ -2138,7 +2141,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (min-width: 992px) {
   .hero-area-l-17 .hero-area-image {
-    margin-bottom: -180px;
+    margin-bottom: 0px;
   }
 }
 
@@ -2175,23 +2178,23 @@ li.sub-menu--item.nav-item-has-children i {
              Feature Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .feature-area-l-17 {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   background-color: #313647;
 }
 
 @media (min-width: 768px) {
   .feature-area-l-17 {
-    padding-top: 80px;
-    padding-bottom: 70px;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
 }
 
 @media (min-width: 992px) {
   .feature-area-l-17 {
-    padding-top: 110px;
-    padding-bottom: 105px;
-    margin-top: 180px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0px;
   }
 }
 
@@ -3160,18 +3163,22 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .copyright-area-l-17 {
-  margin-top: 50px;
+  margin-top: 0px;
+  padding-top: 1em;
+  background-color: #313647;
 }
 
 @media (min-width: 768px) {
   .copyright-area-l-17 {
-    margin-top: 70px;
+    margin-top: 0px;
+    background-color: #313647;
   }
 }
 
 @media (min-width: 992px) {
   .copyright-area-l-17 {
-    margin-top: 100px;
+    margin-top: 0px;
+    background-color: #313647;
   }
 }
 
